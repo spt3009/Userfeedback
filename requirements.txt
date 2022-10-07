@@ -11,4 +11,4 @@ Werkzeug==2.2.2
 zipp==3.8.1
 Gunicorn
 python-dotenv
-os
+os==3.7

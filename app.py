@@ -130,7 +130,7 @@ def generateOTP():
 
 def getOtpApi(p_number):
     account_sid = 'AC5b6de0bce3f5033b476efac822d6e4a1'
-    auth_token = os.getenv('AUTH_TOKEN')
+    auth_token = os.environ.get('AUTH_TOKEN')
     OTP = generateOTP()
     print(OTP)
     body = "Your otp is" + str(OTP)
